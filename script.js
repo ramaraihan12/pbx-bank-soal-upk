@@ -104,11 +104,7 @@ const linkDatabase = {
     'c-abk-islam': 'https://forms.gle/4mZ2cLethpgQ9ywc9',
     'c-abk-kristen': 'https://forms.gle/8EgJ9tNL17oAmckm9',
     'c-abk-katolik': 'https://forms.gle/5QniyXqNHU2AjfEs8',
-    'c-abk-buddha': '',
-    'c-abk-hindu': '',
     'c-abk-pkn': 'https://forms.gle/yi8ckei7j76s7hez8',
-    'c-abk-ipa': '',
-    'c-abk-ips': '',
     'c-abk-matematika': 'https://forms.gle/3zWcuVJfmwN4QqC4A',
     'c-abk-bi': 'https://forms.gle/kzmHkqKvEY2DE4SK6',
     'c-abk-inggris': 'https://forms.gle/rnAfaLHBWrWMDdsw9'
