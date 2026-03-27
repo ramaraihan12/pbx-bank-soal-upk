@@ -1,0 +1,17 @@
+# File dokumentasi lokal (tidak di-push ke GitHub)
+TOKEN_README.md
+worklog.md
+
+# System files
+.DS_Store
+Thumbs.db
+
+# Editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Logs
+*.log
