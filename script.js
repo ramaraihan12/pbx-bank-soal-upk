@@ -82,14 +82,10 @@ const linkDatabase = {
     'c-iis-bi': 'https://forms.gle/1Na54EKUPeFdbELJ8',
     'c-iis-matematika': 'https://forms.gle/JDWYCo8WVnZSmuY99',
     'c-iis-inggris': 'https://forms.gle/ceGWhBAtLqDwihac6',
-    'c-iis-mulok': '',
     'c-iis-sosiologi': 'https://forms.gle/dcd4m4NEYcmeNveU6',
     'c-iis-ekonomi': 'https://forms.gle/EQrUvT49duVvSQUr7',
     'c-iis-geografi': 'https://forms.gle/9HyFpuSTvTPxxN5u6',
     'c-iis-sejarah': 'https://forms.gle/EqNUxMiija9G362p8',
-    'c-iis-pemberdayaan': '',
-    'c-iis-ket-wajib': '',
-    'c-iis-ket-pilihan': '',
     
     // Paket C MIA (IPA)
     'c-mia-katolik': 'https://forms.gle/W8Zr6G4nuwzCCKFZA',
@@ -99,14 +95,10 @@ const linkDatabase = {
     'c-mia-bi': 'https://forms.gle/1Na54EKUPeFdbELJ8',
     'c-mia-matematika': 'https://forms.gle/JDWYCo8WVnZSmuY99',
     'c-mia-inggris': 'https://forms.gle/ceGWhBAtLqDwihac6',
-    'c-mia-mulok': '',
     'c-mia-mat-peminatan': 'https://forms.gle/t8qcBv85FeQysqUaA',
     'c-mia-biologi': 'https://forms.gle/cz3TZGBJUk6bHEfo6',
     'c-mia-kimia': 'https://forms.gle/TdoGz2qksPufrmmU8',
     'c-mia-fisika': 'https://forms.gle/FEBiYpwZqieip2Gc8',
-    'c-mia-pemberdayaan': '',
-    'c-mia-ket-wajib': '',
-    'c-mia-ket-pilihan': '',
     
     // Paket C ABK
     'c-abk-islam': 'https://forms.gle/4mZ2cLethpgQ9ywc9',
