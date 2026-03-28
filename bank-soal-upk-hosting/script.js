@@ -64,7 +64,7 @@ const linkDatabase = {
     // Paket B ABK
     'b-abk-islam': 'https://forms.office.com/r/kynUnRrcbr',
     'b-abk-kristen': 'https://forms.office.com/r/X9PSzVpYGU',
-    'b-abk-katolik': 'https://forms.gle/9cWSvmJdJkXHozxs5',
+    'b-abk-katolik': '',
     'b-abk-buddha': 'https://forms.office.com/r/TjV23ZD89J',
     'b-abk-hindu': 'https://forms.office.com/r/9eNw18q6DQ',
     'b-abk-pkn': 'https://forms.office.com/r/kGNKmygw9G',
