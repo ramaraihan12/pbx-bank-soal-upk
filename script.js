@@ -38,7 +38,7 @@ const linkDatabase = {
     'a-umum-bi': 'https://forms.gle/SJmLqAsXjVA7hze58',
     
     // Paket A ABK
-    'a-abk-islam': '',
+    'a-abk-islam': 'https://forms.gle/sPkZTXU8Su76Nq1t9',
     'a-abk-kristen': 'https://forms.gle/Qasg274o7tRSTs4F7',
     'a-abk-katolik': 'https://forms.gle/hzdh25JxNdT4iTw2A',
     'a-abk-buddha': 'https://forms.gle/Urj6anGeEAy3mKM68',
