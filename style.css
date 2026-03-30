@@ -562,8 +562,9 @@ body {
 /* Mapel Grid */
 .mapel-grid {
     display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
     gap: 16px;
+    justify-items: stretch;
 }
 
 /* Mapel Card */
@@ -848,7 +849,7 @@ body {
 
 @media (min-width: 1024px) {
     .mapel-grid {
-        grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+        grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
     }
 }
 
@@ -1121,8 +1122,9 @@ input:focus-visible {
 /* Skeleton Grid */
 .skeleton-grid {
     display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
     gap: 16px;
+    justify-items: stretch;
 }
 
 @media (max-width: 768px) {
@@ -1133,7 +1135,7 @@ input:focus-visible {
 
 @media (min-width: 1024px) {
     .skeleton-grid {
-        grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+        grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
     }
 }
 
