@@ -521,3 +521,137 @@ window.lockAllCategories = lockAllCategories;
 window.showTokenModal = showTokenModal;
 window.closeTokenModal = closeTokenModal;
 window.submitToken = submitToken;
+
+// ============================================
+// SKELETON LOADING SYSTEM
+// ============================================
+
+const SkeletonLoader = {
+    // Global page loader
+    hideGlobalLoader() {
+        const loader = document.getElementById('globalLoader');
+        if (loader) {
+            loader.classList.add('hidden');
+        }
+    },
+
+    // Show skeleton for specific category
+    showSkeleton(categoryId) {
+        const skeleton = document.getElementById(`skeleton-${categoryId}`);
+        const grid = document.getElementById(`grid-${categoryId}`);
+        
+        if (skeleton) {
+            skeleton.classList.add('active');
+        }
+        if (grid) {
+            grid.style.display = 'none';
+        }
+    },
+
+    // Hide skeleton and show content for specific category
+    hideSkeleton(categoryId, delay = 300) {
+        setTimeout(() => {
+            const skeleton = document.getElementById(`skeleton-${categoryId}`);
+            const grid = document.getElementById(`grid-${categoryId}`);
+            
+            if (skeleton) {
+                skeleton.classList.remove('active');
+            }
+            if (grid) {
+                grid.style.display = 'grid';
+                // Add fade-in effect
+                grid.style.opacity = '0';
+                grid.style.transition = 'opacity 0.3s ease';
+                setTimeout(() => {
+                    grid.style.opacity = '1';
+                }, 50);
+            }
+        }, delay);
+    },
+
+    // Show skeleton for search (all visible cards)
+    showSearchSkeleton(pageId) {
+        const page = document.getElementById(pageId);
+        if (!page) return;
+        
+        const activeCategory = page.querySelector('.category-content.active');
+        if (!activeCategory) return;
+        
+        const categoryId = activeCategory.dataset.category;
+        if (categoryId) {
+            this.showSkeleton(categoryId);
+        }
+    },
+
+    // Hide skeleton after search
+    hideSearchSkeleton(pageId) {
+        const page = document.getElementById(pageId);
+        if (!page) return;
+        
+        const activeCategory = page.querySelector('.category-content.active');
+        if (!activeCategory) return;
+        
+        const categoryId = activeCategory.dataset.category;
+        if (categoryId) {
+            this.hideSkeleton(categoryId, 200);
+        }
+    }
+};
+
+// Override showCategory to add skeleton loading
+const originalShowCategory = showCategory;
+showCategory = function(categoryId) {
+    // Show skeleton first
+    SkeletonLoader.showSkeleton(categoryId);
+    
+    // Call original function
+    originalShowCategory(categoryId);
+    
+    // Hide skeleton after content is ready
+    SkeletonLoader.hideSkeleton(categoryId, 400);
+};
+
+// Override unlockCategory to add skeleton loading
+const originalUnlockCategory = unlockCategory;
+unlockCategory = function(categoryId) {
+    // Show skeleton
+    SkeletonLoader.showSkeleton(categoryId);
+    
+    // Call original function
+    originalUnlockCategory(categoryId);
+    
+    // Hide skeleton after unlock
+    SkeletonLoader.hideSkeleton(categoryId, 500);
+};
+
+// Search debounce timer
+let searchDebounceTimer = null;
+
+// Override searchMapel to add skeleton loading
+const originalSearchMapel = searchMapel;
+searchMapel = function(query, pageId) {
+    // Clear existing timer
+    if (searchDebounceTimer) {
+        clearTimeout(searchDebounceTimer);
+    }
+    
+    // Show skeleton immediately
+    SkeletonLoader.showSearchSkeleton(pageId);
+    
+    // Debounce the actual search
+    searchDebounceTimer = setTimeout(() => {
+        originalSearchMapel(query, pageId);
+        SkeletonLoader.hideSearchSkeleton(pageId);
+    }, 300);
+};
+
+// Initialize skeleton system on DOM ready
+document.addEventListener('DOMContentLoaded', function() {
+    // Hide global loader when everything is ready
+    setTimeout(() => {
+        SkeletonLoader.hideGlobalLoader();
+    }, 800);
+});
+
+// Expose SkeletonLoader to global scope for debugging
+window.SkeletonLoader = SkeletonLoader;
