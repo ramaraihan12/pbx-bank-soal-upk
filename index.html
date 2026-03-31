@@ -68,19 +68,19 @@
                     <div class="feature-card">
                         <div class="feature-icon">A</div>
                         <h3>Paket A</h3>
-                        <p>Setara SD dengan 9 mata pelajaran untuk kelas umum dan ABK</p>
+                        <p>Setara SD dengan 9 mata pelajaran untuk kelas umum dan Khusus</p>
                         <a href="#" class="btn btn-primary" onclick="showPage('paket-a'); return false;" style="padding: 12px 24px; font-size: 0.9375rem;">Lihat Mapel</a>
                     </div>
                     <div class="feature-card">
                         <div class="feature-icon">B</div>
                         <h3>Paket B</h3>
-                        <p>Setara SMP dengan 11 mata pelajaran untuk kelas umum dan ABK</p>
+                        <p>Setara SMP dengan 11 mata pelajaran untuk kelas umum dan Khusus</p>
                         <a href="#" class="btn btn-primary" onclick="showPage('paket-b'); return false;" style="padding: 12px 24px; font-size: 0.9375rem;">Lihat Mapel</a>
                     </div>
                     <div class="feature-card">
                         <div class="feature-icon">C</div>
                         <h3>Paket C</h3>
-                        <p>Setara SMA dengan jurusan IIS, MIA, dan ABK</p>
+                        <p>Setara SMA dengan jurusan IIS, MIA, dan Khusus</p>
                         <a href="#" class="btn btn-primary" onclick="showPage('paket-c'); return false;" style="padding: 12px 24px; font-size: 0.9375rem;">Lihat Mapel</a>
                     </div>
                 </div>
@@ -107,10 +107,10 @@
                                 </label>
                             </div>
                             <div class="category-option">
-                                <input type="radio" name="kategori-a" id="kat-a-abk" value="a-abk" onchange="showCategory('a-abk')">
-                                <label for="kat-a-abk" class="category-label">
+                                <input type="radio" name="kategori-a" id="kat-a-Khusus" value="a-Khusus" onchange="showCategory('a-Khusus')">
+                                <label for="kat-a-Khusus" class="category-label">
                                     <span class="category-icon">A</span>
-                                    <span>ABK</span>
+                                    <span>Khusus</span>
                                 </label>
                             </div>
                         </div>
@@ -288,21 +288,21 @@
                     </div>
                 </div>
 
-                <!-- Paket A ABK -->
-                <div id="a-abk" class="category-content" data-category="a-abk">
-                    <div class="category-locked" id="lock-a-abk">
+                <!-- Paket A Khusus -->
+                <div id="a-Khusus" class="category-content" data-category="a-Khusus">
+                    <div class="category-locked" id="lock-a-Khusus">
                         <div class="locked-content">
                             <div class="locked-icon">🔒</div>
                             <h3>Kategori Terkunci</h3>
-                            <p>Masukkan token untuk mengakses soal Paket A - ABK</p>
-                            <button class="btn btn-primary" onclick="showTokenModal('a-abk')" style="margin-top: 16px;">
+                            <p>Masukkan token untuk mengakses soal Paket A - Khusus</p>
+                            <button class="btn btn-primary" onclick="showTokenModal('a-Khusus')" style="margin-top: 16px;">
                                 Masukkan Token
                             </button>
                         </div>
                     </div>
-                    <div class="category-unlocked-content" id="content-a-abk">
+                    <div class="category-unlocked-content" id="content-a-Khusus">
                     <!-- Skeleton Loading Container -->
-                    <div class="skeleton-grid skeleton-container" id="skeleton-a-abk">
+                    <div class="skeleton-grid skeleton-container" id="skeleton-a-Khusus">
                         <div class="skeleton-card">
                             <div class="skeleton skeleton-icon"></div>
                             <div class="skeleton-card-content">
@@ -352,8 +352,8 @@
                             <div class="skeleton skeleton-arrow"></div>
                         </div>
                     </div>
-                    <div class="mapel-grid" id="grid-a-abk">
-                        <a href="#" class="mapel-card" data-key="a-abk-islam" data-name="Agama Islam">
+                    <div class="mapel-grid" id="grid-a-Khusus">
+                        <a href="#" class="mapel-card" data-key="a-Khusus-islam" data-name="Agama Islam">
                             <div class="mapel-icon">AI</div>
                             <div class="mapel-info">
                                 <h3>Agama Islam</h3>
@@ -363,7 +363,7 @@
                                 <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7" />
                             </svg>
                         </a>
-                        <a href="#" class="mapel-card" data-key="a-abk-kristen" data-name="Agama Kristen">
+                        <a href="#" class="mapel-card" data-key="a-Khusus-kristen" data-name="Agama Kristen">
                             <div class="mapel-icon">AK</div>
                             <div class="mapel-info">
                                 <h3>Agama Kristen</h3>
@@ -373,7 +373,7 @@
                                 <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7" />
                             </svg>
                         </a>
-                        <a href="#" class="mapel-card" data-key="a-abk-katolik" data-name="Agama Katolik">
+                        <a href="#" class="mapel-card" data-key="a-Khusus-katolik" data-name="Agama Katolik">
                             <div class="mapel-icon">AK</div>
                             <div class="mapel-info">
                                 <h3>Agama Katolik</h3>
@@ -383,7 +383,7 @@
                                 <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7" />
                             </svg>
                         </a>
-                        <a href="#" class="mapel-card" data-key="a-abk-buddha" data-name="Agama Buddha">
+                        <a href="#" class="mapel-card" data-key="a-Khusus-buddha" data-name="Agama Buddha">
                             <div class="mapel-icon">AB</div>
                             <div class="mapel-info">
                                 <h3>Agama Buddha</h3>
@@ -393,7 +393,7 @@
                                 <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7" />
                             </svg>
                         </a>
-                        <a href="#" class="mapel-card" data-key="a-abk-hindu" data-name="Agama Hindu">
+                        <a href="#" class="mapel-card" data-key="a-Khusus-hindu" data-name="Agama Hindu">
                             <div class="mapel-icon">AH</div>
                             <div class="mapel-info">
                                 <h3>Agama Hindu</h3>
@@ -403,7 +403,7 @@
                                 <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7" />
                             </svg>
                         </a>
-                        <a href="#" class="mapel-card" data-key="a-abk-ppkn" data-name="PPKN">
+                        <a href="#" class="mapel-card" data-key="a-Khusus-ppkn" data-name="PPKN">
                             <div class="mapel-icon">PP</div>
                             <div class="mapel-info">
                                 <h3>PPKN</h3>
@@ -413,7 +413,7 @@
                                 <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7" />
                             </svg>
                         </a>
-                        <a href="#" class="mapel-card" data-key="a-abk-ipas" data-name="IPAS">
+                        <a href="#" class="mapel-card" data-key="a-Khusus-ipas" data-name="IPAS">
                             <div class="mapel-icon">IP</div>
                             <div class="mapel-info">
                                 <h3>IPAS</h3>
@@ -423,7 +423,7 @@
                                 <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7" />
                             </svg>
                         </a>
-                        <a href="#" class="mapel-card" data-key="a-abk-matematika" data-name="Matematika">
+                        <a href="#" class="mapel-card" data-key="a-Khusus-matematika" data-name="Matematika">
                             <div class="mapel-icon">MT</div>
                             <div class="mapel-info">
                                 <h3>Matematika</h3>
@@ -433,7 +433,7 @@
                                 <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7" />
                             </svg>
                         </a>
-                        <a href="#" class="mapel-card" data-key="a-abk-bi" data-name="Bahasa Indonesia">
+                        <a href="#" class="mapel-card" data-key="a-Khusus-bi" data-name="Bahasa Indonesia">
                             <div class="mapel-icon">BI</div>
                             <div class="mapel-info">
                                 <h3>Bahasa Indonesia</h3>
@@ -469,10 +469,10 @@
                                 </label>
                             </div>
                             <div class="category-option">
-                                <input type="radio" name="kategori-b" id="kat-b-abk" value="b-abk" onchange="showCategory('b-abk')">
-                                <label for="kat-b-abk" class="category-label">
+                                <input type="radio" name="kategori-b" id="kat-b-Khusus" value="b-Khusus" onchange="showCategory('b-Khusus')">
+                                <label for="kat-b-Khusus" class="category-label">
                                     <span class="category-icon">A</span>
-                                    <span>ABK</span>
+                                    <span>Khusus</span>
                                 </label>
                             </div>
                         </div>
@@ -670,21 +670,21 @@
                     </div>
                 </div>
 
-                <!-- Paket B ABK -->
-                <div id="b-abk" class="category-content" data-category="b-abk">
-                    <div class="category-locked" id="lock-b-abk">
+                <!-- Paket B Khusus -->
+                <div id="b-Khusus" class="category-content" data-category="b-Khusus">
+                    <div class="category-locked" id="lock-b-Khusus">
                         <div class="locked-content">
                             <div class="locked-icon">🔒</div>
                             <h3>Kategori Terkunci</h3>
-                            <p>Masukkan token untuk mengakses soal Paket B - ABK</p>
-                            <button class="btn btn-primary" onclick="showTokenModal('b-abk')" style="margin-top: 16px;">
+                            <p>Masukkan token untuk mengakses soal Paket B - Khusus</p>
+                            <button class="btn btn-primary" onclick="showTokenModal('b-Khusus')" style="margin-top: 16px;">
                                 Masukkan Token
                             </button>
                         </div>
                     </div>
-                    <div class="category-unlocked-content" id="content-b-abk">
+                    <div class="category-unlocked-content" id="content-b-Khusus">
                     <!-- Skeleton Loading Container -->
-                    <div class="skeleton-grid skeleton-container" id="skeleton-b-abk">
+                    <div class="skeleton-grid skeleton-container" id="skeleton-b-Khusus">
                         <div class="skeleton-card">
                             <div class="skeleton skeleton-icon"></div>
                             <div class="skeleton-card-content">
@@ -734,8 +734,8 @@
                             <div class="skeleton skeleton-arrow"></div>
                         </div>
                     </div>
-                    <div class="mapel-grid" id="grid-b-abk">
-                        <a href="#" class="mapel-card" data-key="b-abk-islam" data-name="Agama Islam">
+                    <div class="mapel-grid" id="grid-b-Khusus">
+                        <a href="#" class="mapel-card" data-key="b-Khusus-islam" data-name="Agama Islam">
                             <div class="mapel-icon">AI</div>
                             <div class="mapel-info">
                                 <h3>Agama Islam</h3>
@@ -745,7 +745,7 @@
                                 <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7" />
                             </svg>
                         </a>
-                        <a href="#" class="mapel-card" data-key="b-abk-kristen" data-name="Agama Kristen">
+                        <a href="#" class="mapel-card" data-key="b-Khusus-kristen" data-name="Agama Kristen">
                             <div class="mapel-icon">AK</div>
                             <div class="mapel-info">
                                 <h3>Agama Kristen</h3>
@@ -755,7 +755,7 @@
                                 <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7" />
                             </svg>
                         </a>
-                        <a href="#" class="mapel-card" data-key="b-abk-katolik" data-name="Agama Katolik">
+                        <a href="#" class="mapel-card" data-key="b-Khusus-katolik" data-name="Agama Katolik">
                             <div class="mapel-icon">AK</div>
                             <div class="mapel-info">
                                 <h3>Agama Katolik</h3>
@@ -765,7 +765,7 @@
                                 <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7" />
                             </svg>
                         </a>
-                        <a href="#" class="mapel-card" data-key="b-abk-buddha" data-name="Agama Buddha">
+                        <a href="#" class="mapel-card" data-key="b-Khusus-buddha" data-name="Agama Buddha">
                             <div class="mapel-icon">AB</div>
                             <div class="mapel-info">
                                 <h3>Agama Buddha</h3>
@@ -775,7 +775,7 @@
                                 <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7" />
                             </svg>
                         </a>
-                        <a href="#" class="mapel-card" data-key="b-abk-hindu" data-name="Agama Hindu">
+                        <a href="#" class="mapel-card" data-key="b-Khusus-hindu" data-name="Agama Hindu">
                             <div class="mapel-icon">AH</div>
                             <div class="mapel-info">
                                 <h3>Agama Hindu</h3>
@@ -785,7 +785,7 @@
                                 <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7" />
                             </svg>
                         </a>
-                        <a href="#" class="mapel-card" data-key="b-abk-pkn" data-name="PKN">
+                        <a href="#" class="mapel-card" data-key="b-Khusus-pkn" data-name="PKN">
                             <div class="mapel-icon">PK</div>
                             <div class="mapel-info">
                                 <h3>PKN</h3>
@@ -795,7 +795,7 @@
                                 <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7" />
                             </svg>
                         </a>
-                        <a href="#" class="mapel-card" data-key="b-abk-ipa" data-name="IPA">
+                        <a href="#" class="mapel-card" data-key="b-Khusus-ipa" data-name="IPA">
                             <div class="mapel-icon">IA</div>
                             <div class="mapel-info">
                                 <h3>IPA</h3>
@@ -805,7 +805,7 @@
                                 <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7" />
                             </svg>
                         </a>
-                        <a href="#" class="mapel-card" data-key="b-abk-ips" data-name="IPS">
+                        <a href="#" class="mapel-card" data-key="b-Khusus-ips" data-name="IPS">
                             <div class="mapel-icon">IS</div>
                             <div class="mapel-info">
                                 <h3>IPS</h3>
@@ -815,7 +815,7 @@
                                 <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7" />
                             </svg>
                         </a>
-                        <a href="#" class="mapel-card" data-key="b-abk-matematika" data-name="Matematika">
+                        <a href="#" class="mapel-card" data-key="b-Khusus-matematika" data-name="Matematika">
                             <div class="mapel-icon">MT</div>
                             <div class="mapel-info">
                                 <h3>Matematika</h3>
@@ -825,7 +825,7 @@
                                 <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7" />
                             </svg>
                         </a>
-                        <a href="#" class="mapel-card" data-key="b-abk-bi" data-name="Bahasa Indonesia">
+                        <a href="#" class="mapel-card" data-key="b-Khusus-bi" data-name="Bahasa Indonesia">
                             <div class="mapel-icon">BI</div>
                             <div class="mapel-info">
                                 <h3>Bahasa Indonesia</h3>
@@ -835,7 +835,7 @@
                                 <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7" />
                             </svg>
                         </a>
-                        <a href="#" class="mapel-card" data-key="b-abk-inggris" data-name="Bahasa Inggris">
+                        <a href="#" class="mapel-card" data-key="b-Khusus-inggris" data-name="Bahasa Inggris">
                             <div class="mapel-icon">BG</div>
                             <div class="mapel-info">
                                 <h3>Bahasa Inggris</h3>
@@ -878,10 +878,10 @@
                                 </label>
                             </div>
                             <div class="category-option">
-                                <input type="radio" name="kategori-c" id="kat-c-abk" value="c-abk" onchange="showCategory('c-abk')">
-                                <label for="kat-c-abk" class="category-label">
+                                <input type="radio" name="kategori-c" id="kat-c-Khusus" value="c-Khusus" onchange="showCategory('c-Khusus')">
+                                <label for="kat-c-Khusus" class="category-label">
                                     <span class="category-icon">A</span>
-                                    <span>ABK</span>
+                                    <span>Khusus</span>
                                 </label>
                             </div>
                         </div>
@@ -1258,21 +1258,21 @@
                     </div>
                 </div>
 
-                <!-- Paket C ABK -->
-                <div id="c-abk" class="category-content" data-category="c-abk">
-                    <div class="category-locked" id="lock-c-abk">
+                <!-- Paket C Khusus -->
+                <div id="c-Khusus" class="category-content" data-category="c-Khusus">
+                    <div class="category-locked" id="lock-c-Khusus">
                         <div class="locked-content">
                             <div class="locked-icon">🔒</div>
                             <h3>Kategori Terkunci</h3>
-                            <p>Masukkan token untuk mengakses soal Paket C - ABK</p>
-                            <button class="btn btn-primary" onclick="showTokenModal('c-abk')" style="margin-top: 16px;">
+                            <p>Masukkan token untuk mengakses soal Paket C - Khusus</p>
+                            <button class="btn btn-primary" onclick="showTokenModal('c-Khusus')" style="margin-top: 16px;">
                                 Masukkan Token
                             </button>
                         </div>
                     </div>
-                    <div class="category-unlocked-content" id="content-c-abk">
+                    <div class="category-unlocked-content" id="content-c-Khusus">
                     <!-- Skeleton Loading Container -->
-                    <div class="skeleton-grid skeleton-container" id="skeleton-c-abk">
+                    <div class="skeleton-grid skeleton-container" id="skeleton-c-Khusus">
                         <div class="skeleton-card">
                             <div class="skeleton skeleton-icon"></div>
                             <div class="skeleton-card-content">
@@ -1322,8 +1322,8 @@
                             <div class="skeleton skeleton-arrow"></div>
                         </div>
                     </div>
-                    <div class="mapel-grid" id="grid-c-abk">
-                        <a href="#" class="mapel-card" data-key="c-abk-islam" data-name="Agama Islam">
+                    <div class="mapel-grid" id="grid-c-Khusus">
+                        <a href="#" class="mapel-card" data-key="c-Khusus-islam" data-name="Agama Islam">
                             <div class="mapel-icon">AI</div>
                             <div class="mapel-info">
                                 <h3>Agama Islam</h3>
@@ -1333,7 +1333,7 @@
                                 <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7" />
                             </svg>
                         </a>
-                        <a href="#" class="mapel-card" data-key="c-abk-kristen" data-name="Agama Kristen">
+                        <a href="#" class="mapel-card" data-key="c-Khusus-kristen" data-name="Agama Kristen">
                             <div class="mapel-icon">AK</div>
                             <div class="mapel-info">
                                 <h3>Agama Kristen</h3>
@@ -1343,7 +1343,7 @@
                                 <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7" />
                             </svg>
                         </a>
-                        <a href="#" class="mapel-card" data-key="c-abk-katolik" data-name="Agama Katolik">
+                        <a href="#" class="mapel-card" data-key="c-Khusus-katolik" data-name="Agama Katolik">
                             <div class="mapel-icon">AK</div>
                             <div class="mapel-info">
                                 <h3>Agama Katolik</h3>
@@ -1353,7 +1353,7 @@
                                 <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7" />
                             </svg>
                         </a>
-                        <a href="#" class="mapel-card" data-key="c-abk-pkn" data-name="PKN">
+                        <a href="#" class="mapel-card" data-key="c-Khusus-pkn" data-name="PKN">
                             <div class="mapel-icon">PK</div>
                             <div class="mapel-info">
                                 <h3>PKN</h3>
@@ -1363,7 +1363,7 @@
                                 <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7" />
                             </svg>
                         </a>
-                        <a href="#" class="mapel-card" data-key="c-abk-matematika" data-name="Matematika">
+                        <a href="#" class="mapel-card" data-key="c-Khusus-matematika" data-name="Matematika">
                             <div class="mapel-icon">MT</div>
                             <div class="mapel-info">
                                 <h3>Matematika</h3>
@@ -1373,7 +1373,7 @@
                                 <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7" />
                             </svg>
                         </a>
-                        <a href="#" class="mapel-card" data-key="c-abk-bi" data-name="Bahasa Indonesia">
+                        <a href="#" class="mapel-card" data-key="c-Khusus-bi" data-name="Bahasa Indonesia">
                             <div class="mapel-icon">BI</div>
                             <div class="mapel-info">
                                 <h3>Bahasa Indonesia</h3>
@@ -1383,7 +1383,7 @@
                                 <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7" />
                             </svg>
                         </a>
-                        <a href="#" class="mapel-card" data-key="c-abk-inggris" data-name="Bahasa Inggris">
+                        <a href="#" class="mapel-card" data-key="c-Khusus-inggris" data-name="Bahasa Inggris">
                             <div class="mapel-icon">BG</div>
                             <div class="mapel-info">
                                 <h3>Bahasa Inggris</h3>

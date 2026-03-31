@@ -10,12 +10,12 @@
     const _0x9c1d = [0, 1, 2, 3, 4, 5, 6];
     const _t = {};
     _t['a-umum'] = atob(_0x4b2a[_0x9c1d[0]]);
-    _t['a-abk'] = atob(_0x4b2a[_0x9c1d[1]]);
+    _t['a-khusus'] = atob(_0x4b2a[_0x9c1d[1]]);
     _t['b-umum'] = atob(_0x4b2a[_0x9c1d[2]]);
-    _t['b-abk'] = atob(_0x4b2a[_0x9c1d[3]]);
+    _t['b-khusus'] = atob(_0x4b2a[_0x9c1d[3]]);
     _t['c-iis'] = atob(_0x4b2a[_0x9c1d[4]]);
     _t['c-mia'] = atob(_0x4b2a[_0x9c1d[5]]);
-    _t['c-abk'] = atob(_0x4b2a[_0x9c1d[6]]);
+    _t['c-khusus'] = atob(_0x4b2a[_0x9c1d[6]]);
     window._categoryTokens = _t;
 })();
 const categoryTokens = window._categoryTokens;
@@ -38,15 +38,15 @@ const linkDatabase = {
     'a-umum-bi': 'https://forms.gle/SJmLqAsXjVA7hze58',
     
     // Paket A ABK
-    'a-abk-islam': 'https://forms.gle/sPkZTXU8Su76Nq1t9',
-    'a-abk-kristen': 'https://forms.gle/Qasg274o7tRSTs4F7',
-    'a-abk-katolik': 'https://forms.gle/hzdh25JxNdT4iTw2A',
-    'a-abk-buddha': 'https://forms.gle/Urj6anGeEAy3mKM68',
-    'a-abk-hindu': 'https://forms.gle/3EXNoHB7wopsmSzD9',
-    'a-abk-ppkn': 'https://forms.gle/EkY2s5TncAZji5kg6',
-    'a-abk-ipas': 'https://forms.gle/Lue2RunN3XczYhKG9',
-    'a-abk-matematika': 'https://forms.gle/wdEMhXjjz2saA1HTA',
-    'a-abk-bi': 'https://forms.gle/UHy62ibhMwtfTmPa7',
+    'a-khusus-islam': 'https://forms.gle/sPkZTXU8Su76Nq1t9',
+    'a-khusus-kristen': 'https://forms.gle/Qasg274o7tRSTs4F7',
+    'a-khusus-katolik': 'https://forms.gle/hzdh25JxNdT4iTw2A',
+    'a-khusus-buddha': 'https://forms.gle/Urj6anGeEAy3mKM68',
+    'a-khusus-hindu': 'https://forms.gle/3EXNoHB7wopsmSzD9',
+    'a-khusus-ppkn': 'https://forms.gle/EkY2s5TncAZji5kg6',
+    'a-khusus-ipas': 'https://forms.gle/Lue2RunN3XczYhKG9',
+    'a-khusus-matematika': 'https://forms.gle/wdEMhXjjz2saA1HTA',
+    'a-khusus-bi': 'https://forms.gle/UHy62ibhMwtfTmPa7',
     
     // Paket B Umum
     'b-umum-islam': 'https://forms.gle/MDzmKx6acT5r4KEaA',
@@ -62,17 +62,17 @@ const linkDatabase = {
     'b-umum-inggris': 'https://forms.gle/rF2GRby3yBBQpx377',
     
     // Paket B ABK
-    'b-abk-islam': 'https://forms.gle/hvqratg2gdN1qbRL8',
-    'b-abk-kristen': 'https://forms.gle/iQHVjQS7eU3b8gGE6',
-    'b-abk-katolik': 'https://forms.gle/n2m2WspAccbUrf7A6',
-    'b-abk-buddha': 'https://forms.gle/UdmrnYfAVXJ5jiSb9',
-    'b-abk-hindu': 'https://forms.gle/zY4Xp9fvtkWmw2e9A',
-    'b-abk-pkn': 'https://forms.gle/MYqGvacQXJAyWKmj9',
-    'b-abk-ipa': 'https://forms.gle/udkPfXdnW8EuiyKZA',
-    'b-abk-ips': 'https://forms.gle/udkPfXdnW8EuiyKZA',
-    'b-abk-matematika': 'https://forms.gle/KrdjnnbV45ypj6rc6',
-    'b-abk-bi': 'https://forms.gle/BzxgzpsBNcAHWtft7',
-    'b-abk-inggris': 'https://forms.gle/Sg9j7EiJymrYZFmE6',
+    'b-khusus-islam': 'https://forms.gle/hvqratg2gdN1qbRL8',
+    'b-khusus-kristen': 'https://forms.gle/iQHVjQS7eU3b8gGE6',
+    'b-khusus-katolik': 'https://forms.gle/n2m2WspAccbUrf7A6',
+    'b-khusus-buddha': 'https://forms.gle/UdmrnYfAVXJ5jiSb9',
+    'b-khusus-hindu': 'https://forms.gle/zY4Xp9fvtkWmw2e9A',
+    'b-khusus-pkn': 'https://forms.gle/MYqGvacQXJAyWKmj9',
+    'b-khusus-ipa': 'https://forms.gle/udkPfXdnW8EuiyKZA',
+    'b-khusus-ips': 'https://forms.gle/udkPfXdnW8EuiyKZA',
+    'b-khusus-matematika': 'https://forms.gle/KrdjnnbV45ypj6rc6',
+    'b-khusus-bi': 'https://forms.gle/BzxgzpsBNcAHWtft7',
+    'b-khusus-inggris': 'https://forms.gle/Sg9j7EiJymrYZFmE6',
     
     // Paket C IIS (IPS)
     'c-iis-katolik': 'https://forms.gle/W8Zr6G4nuwzCCKFZA',
@@ -101,13 +101,13 @@ const linkDatabase = {
     'c-mia-fisika': 'https://forms.gle/FEBiYpwZqieip2Gc8',
     
     // Paket C ABK
-    'c-abk-islam': 'https://forms.gle/4mZ2cLethpgQ9ywc9',
-    'c-abk-kristen': 'https://forms.gle/8EgJ9tNL17oAmckm9',
-    'c-abk-katolik': 'https://forms.gle/5QniyXqNHU2AjfEs8',
-    'c-abk-pkn': 'https://forms.gle/yi8ckei7j76s7hez8',
-    'c-abk-matematika': 'https://forms.gle/3zWcuVJfmwN4QqC4A',
-    'c-abk-bi': 'https://forms.gle/kzmHkqKvEY2DE4SK6',
-    'c-abk-inggris': 'https://forms.gle/rnAfaLHBWrWMDdsw9'
+    'c-khusus-islam': 'https://forms.gle/4mZ2cLethpgQ9ywc9',
+    'c-khusus-kristen': 'https://forms.gle/8EgJ9tNL17oAmckm9',
+    'c-khusus-katolik': 'https://forms.gle/5QniyXqNHU2AjfEs8',
+    'c-khusus-pkn': 'https://forms.gle/yi8ckei7j76s7hez8',
+    'c-khusus-matematika': 'https://forms.gle/3zWcuVJfmwN4QqC4A',
+    'c-khusus-bi': 'https://forms.gle/kzmHkqKvEY2DE4SK6',
+    'c-khusus-inggris': 'https://forms.gle/rnAfaLHBWrWMDdsw9'
 };
 
 // Fungsi untuk update link (untuk admin)
@@ -395,7 +395,7 @@ function updateCategoryLockUI(categoryId) {
 
 // Inisialisasi semua kategori lock
 function initCategoryLocks() {
-    const categories = ['a-umum', 'a-abk', 'b-umum', 'b-abk', 'c-iis', 'c-mia', 'c-abk'];
+    const categories = ['a-umum', 'a-khusus', 'b-umum', 'b-khusus', 'c-iis', 'c-mia', 'c-khusus'];
     categories.forEach(cat => updateCategoryLockUI(cat));
 }
 
