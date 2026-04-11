@@ -87,6 +87,7 @@ const linkDatabase = {
     'c-iis-ekonomi': 'https://forms.gle/EQrUvT49duVvSQUr7',
     'c-iis-geografi': 'https://forms.gle/9HyFpuSTvTPxxN5u6',
     'c-iis-sejarah': 'https://forms.gle/EqNUxMiija9G362p8',
+    'c-iis-sejarah-indonesia': 'https://forms.gle/3pM7av9NTknZfXtd8',
     
     // Paket C MIA (IPA)
     'c-mia-katolik': 'https://forms.gle/W8Zr6G4nuwzCCKFZA',
