@@ -83,7 +83,7 @@ const linkDatabase = {
     'c-iis-bi': 'https://forms.gle/1Na54EKUPeFdbELJ8',
     'c-iis-matematika': 'https://forms.gle/JDWYCo8WVnZSmuY99',
     'c-iis-inggris': 'https://forms.gle/ceGWhBAtLqDwihac6',
-    'c-iis-sosiologi': 'https://forms.gle/dcd4m4NEYcmeNveU6',
+    'c-iis-sosiologi': 'https://forms.gle/wmQuAFCYVFzEhjuXA',
     'c-iis-ekonomi': 'https://forms.gle/EQrUvT49duVvSQUr7',
     'c-iis-geografi': 'https://forms.gle/9HyFpuSTvTPxxN5u6',
     'c-iis-sejarah': 'https://forms.gle/EqNUxMiija9G362p8',
