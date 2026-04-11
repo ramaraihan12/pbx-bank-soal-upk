@@ -102,6 +102,7 @@ const linkDatabase = {
     'c-mia-biologi': 'https://forms.gle/cz3TZGBJUk6bHEfo6',
     'c-mia-kimia': 'https://forms.gle/TdoGz2qksPufrmmU8',
     'c-mia-fisika': 'https://forms.gle/FEBiYpwZqieip2Gc8',
+    'c-mia-sejarah-indonesia': 'https://forms.gle/3pM7av9NTknZfXtd8',
     
     // Paket C ABK
     'c-khusus-islam': 'https://forms.gle/4mZ2cLethpgQ9ywc9',
